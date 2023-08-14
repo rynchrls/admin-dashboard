@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.App {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.ewan {
+    width: 82%;
+    height: 100vh;
+    text-align: center;
+}
+.flex-cards {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.left-cards {
+    width: 630px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.upcoming-lesson {
+    width: 390px;
+    height: 305px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+.upcoming-lesson .for-header {
+    width: 100%;
+    height: 40px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+.upcoming-lesson .for-header h3 {
+    font-size: 17px;
+}
+.upcoming-lesson .for-header span {
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: 400px;
+    cursor: pointer;
+}
+.lesson {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+.lesson .sched {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time-date div {
+    font-size: 12px;
+}
+.lesson-left h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.lesson-left {
+    width: 80%;
+}
+.lesson-right {
+    text-align: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.lesson-right span {
+    color:var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 13px;
+} 
+.lesson-right button {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+}
+.lesson-right button:hover {
+    background-color: rgb(0, 0, 173);
+    transition: 0.3s;
+}
+.sub-title {
+    font-size: 12px;
+    color: gray;
+}
+.sched {
+    font-size: 13px;
+    color: gray;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+.sched .time-date div {
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.semester-progress {
+    width: 220px;
+    height: 305px;
+    background-color: white;
+    border-radius: 12px;
+}
+.semester-progress h1 {
+    font-size: 17px;
+    padding: 1rem;
+    text-align: left;
+}
+.circle-background {
+    fill: none;
+    stroke: #ddd;
+}
+.circle-progress {
+    fill: none;
+    stroke: var(--primary-color);
+}
+.circle-text {
+    fill: black;
+    font-size: 24px;
+    font-weight: 700;
+    stroke: none;
+}
+.circle-span {
+    fill: gray;
+    font-size: 14px;
+    font-weight: 400;
+    stroke: none;
+}
+
+.two-section {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+}
+.teaching-activity {
+    width: 100%;
+    height: 525px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.teaching-activity h1 {
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 17px;
+}
+.teaching-wrapper {
+    width: 100%;
+    height: 480px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: left;
+}
+.teaching-wrapper h1 {
+    font-size: 17px;
+}
+.teaching-history {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.history {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.history div {
+    margin-right: 20px;
+}
+.history div {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+.history-panel .panel-details h3 {
+    font-size: 16px;
+}
+.history-panel {
+    width: 510px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.panel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    gap: 8px;
+}
+.time-date2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.time-date2 div {
+    width: 130px;
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+}
+.panel-details {
+    position: relative;
+    padding: 0px 8px;
+}
+.history-circle {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.history-circle::before {
+    content: '';
+    position: absolute;
+    top: 17px;
+    width: 2px;
+    height: 116px;
+    background-color: rgb(230, 230, 230);
+}
+.history-circle div {
+    width: 9px;
+    height: 9px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+}
+.history-circle2 {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.history-circle2 div {
+    width: 9px;
+    height: 9px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+}
+.history-panel .panel-details button {
+    width: 110px;
+    padding: 6px 10px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    background-color: transparent;
+    font-weight: 600;
+}
+.history-panel .panel-details button:hover {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.right-cards {
+    width: 33%;
+    height: 1358px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.react-calendar {
+    border: 0 !important;
+}
+.calendar {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.main-wrapper footer {
+    width: 100%;
+    height: 90px;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    font-weight: 500;
+}
+.upcoming-events h1 {
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 17px;
+    padding: 12px 0px;
+    margin-bottom: 1rem;
+}
+.upcoming-events {
+    text-align: left;
+}
+.events h2 {
+    font-size: 18px;
+    position: relative;
+    padding: 0rem .5rem;
+}
+.events h2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 210px;
+    height: 1px;
+    background-color: rgb(224, 224, 224);
+}
+.events {
+    margin-bottom: 1rem;
+}
+.event {
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    gap: 16px;
+    margin-bottom: .5rem;
+}
+.time {
+    text-align: left;
+    width: 25%;
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+}
+.event-wrapper {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+.event-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 4px;
+    border-radius: 16px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+.event-wrapper .event-title h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.event-wrapper .event-title span {
+    font-size: 12px;
+    color: rgb(36, 36, 36);
+}
+.event-wrapper .event-time {
+    font-size: 12px;
+    color: gray;   
+}
+
+@media screen and (max-width: 1235px) {
+    .welcome {
+        padding: 1rem;
+    }
+    .flex-cards {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .flex-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .left-cards {
+        width: 100%;
+    }
+    .two-section {
+        width: 100%;
+    }
+    .upcoming-lesson {
+        width: 75%;
+        padding: 2rem;
+    }
+    .teaching-history {
+        gap: 2rem;
+    }
+    .right-cards {
+        width: 100% !important;
+    }
+    .time {
+        text-align: left;
+        width: 100px;
+        font-size: 13px;
+        font-weight: 500;
+        color: gray;
+    }
+    .events h2::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        width: 90%;
+        height: 1px;
+        background-color: rgb(224, 224, 224);
+    }
+    .event-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        position: relative;
+    }
+    .history-panel {
+        width: 100%;
+    }
+    .panel-details {
+        width: 100%;
+    }
+    .panel {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .ewan {
+        width: 100%;
+    }
+    .events h2::after {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 651px) {
+    .two-section {
+        flex-direction: column;
+        gap: 1.5rem
+        ;
+    }
+    .upcoming-lesson {
+        width: 100%;
+    }
+    .semester-progress {
+        width: 100%;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 500px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .teaching-history {
+        margin-top: 16px;
+    }
+    .lesson .sched {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        justify-content: flex-end;
+    }
+    .upcoming-lesson {
+        padding: 1rem;
+    }
+    .lesson {
+        justify-content: space-between;
+    }
+    .lesson-left {
+        width: 50%;
+    }
+    .events h2::after {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .teaching-activity {
+        height: 250px;
+    }
+    .time-date2 div {
+        font-size: 10px;
+    }
+    .right-cards {
+        text-align: left;
+        overflow-y: scroll;
+    }
+    .time-date2 span {
+        display: none;
+    }
+    .teaching-wrapper {
+        padding: 12px;
+        overflow: scroll;
+    }
+    .history {
+        width: 60px;
+    }
+    .panel-details {
+        padding: 0px;
+    }
+    .upcoming-lesson {
+        overflow: scroll;
+    }
+    .semester-progress {
+        overflow: scroll;
+    }
+}

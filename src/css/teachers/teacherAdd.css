@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.App {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.ewan {
+    width: 82%;
+    height: 100vh;
+    text-align: center;
+}
+.first-name-section2 {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.input-box2 {
+    position: relative;
+    width: 30%;
+}
+.input-box2 input {
+    width: 100%;
+    padding: 10px;
+    border:  1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 14px;
+}
+.input-box2 span {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    pointer-events: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 4px;
+    color: rgb(182, 182, 182);
+}
+.input-box2 input:focus {
+    border-color: var(--primary-color);
+}
+
+.input-box2 span a {
+    color: red;
+    font-size: 16px;
+}
+
+
+
+.first-name-section3 {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.input-box3 {
+    position: relative;
+    width: 97%;
+}
+.input-box3 input {
+    width: 100%;
+    padding: 10px;
+    border:  1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 14px;
+
+}
+.input-box3 span {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    pointer-events: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 4px;
+    color: rgb(182, 182, 182);
+}
+.input-box3 input:focus {
+    border-color: var(--primary-color);
+}
+
+.input-box3 span a {
+    color: red;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .ewan {
+        width: 100%;
+    }
+}

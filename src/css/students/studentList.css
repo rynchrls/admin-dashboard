@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+    --tag-color: rgb(175, 175, 175);
+    --icon-color: rgb(110, 110, 110);
+    --primary-color:rgb(0, 60, 255);
+    --secondary-color: rgb(0, 255, 179);
+    --white-color: #fff;
+}
+.App {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: hidden;
+}
+.ewan {
+    width: 82%;
+    height: 100vh;
+    text-align: center;
+}
+.search-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.search-section input {
+    width: 250px;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 2px;
+}
+.search-section button {
+    width: 150px;
+    padding: .7rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.search-section button:hover {
+    background-color: rgb(56, 56, 250);
+    transition: 0.3s;
+}
+.student-list-wrapper {
+    width: 100%;
+    padding: 2rem;
+    height: auto;
+}
+.student-list {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+.student-header {
+    width: 100%;
+    padding: 1.5rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.student-header h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.student-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.icon-border {
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.icon-border:hover {
+    background-color: var(--secondary-color);
+    transition: 0.3s;
+}
+.icon-border svg {
+    fill: black;
+}
+.icon-border:hover svg {
+    fill: white;
+    transition: 0.3s;
+}
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--primary-color);
+    color: white;
+    fill: white;
+    padding: .5rem;
+    font-size: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.download h2 {
+    font-weight: 500;
+}
+.download:hover {
+    background-color: var(--secondary-color);
+    transition: 0.3s;
+}
+.list {
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    overflow-x: scroll;
+}
+.list-wrapper {
+    width: 1400px;
+}
+.img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.isdzTY  {
+    justify-content: flex-start !important;
+}
+.bPokRt {
+    height: 90px !important;
+}
+.action-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;    
+}
+.bPokRt {
+    color: black !important;
+    border-bottom: 1px solid rgb(228, 228, 228) !important;
+}
+
+.bPokRt:hover {
+    background-color: rgb(245, 245, 245);
+}
+.eGfZzv {
+    opacity: 1 !important;
+    margin-left: 4px;
+}
+.current2 {
+    background-color: var(--primary-color);
+}
+.current2 svg {
+    fill: white;
+}
+.grid {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.grid-list {
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 16px;
+    cursor: pointer;
+}
+.grid-list img {
+    width: 65%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.grid-list h2 {
+    color: var(--primary-color);
+    font-size: 21px;
+    font-weight: 600;
+}
+.grid-list span {
+    font-weight: 500;
+}
+.student-add-hide {
+    visibility: hidden;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .search-section {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        gap: 12px;
+    }
+    /* .search-section input {
+        width: 100%;
+    } */
+}
+@media screen and (max-width: 1022px) {
+    .search-section {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+    .search-section input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ewan {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .grid-list {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .student-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    /* .student-right {
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+    .search-section {
+        padding: 8px;
+    }
+    .student-list-wrapper {
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .student-right {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 759px) {
+    .grid {
+        justify-content: space-between;
+        gap: 20px;
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 727px) {
+    .grid {
+        justify-content: space-between;
+        gap: 12px;
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 703px) {
+    .grid {
+        justify-content: center;
+    }
+    .grid-list {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 691px) {
+    .grid-list {
+        width: 100%;
+    }
+    .grid-list img {
+        width: 30%;
+        height: 55%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .grid-list {
+        width: 100%;
+    }
+    .grid-list img {
+        width: 40%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .grid-list {
+        width: 100%;
+    }
+    .grid-list img {
+        width: 50%;
+        height: 40%;
+    }
+}

@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+    --tag-color: rgb(175, 175, 175);
+    --icon-color: rgb(110, 110, 110);
+    --primary-color:rgb(0, 60, 255);
+    --secondary-color: rgb(0, 255, 179);
+    --white-color: #fff;
+}
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: rgb(244, 247, 248);
+}
+.ewan {
+    width: 82%;
+    height: 100vh;
+    text-align: center;
+}
+.main-wrapper {
+    width: 100%;
+    height: 88vh;
+    overflow-y: scroll;
+    text-align: left;
+}
+.welcome {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.welcome h2 {
+    font-size: 23px;
+    font-weight: 500;
+}
+.welcome div {
+    font-size: 18px;
+    font-weight: 600;
+}
+.welcome span {
+    font-weight: 400;
+}
+.flash-card {
+    width: 100%;
+    height: 120px;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem 1rem;
+    margin-bottom: 10px;
+}
+.card {
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    text-align: left;
+}
+.card img {
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+}
+.card div {
+    line-height: 22px;
+}
+.card div p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(124, 124, 124);
+}
+.card div h5 {
+    font-size: 24px;
+}
+.chart:first-child {
+    width: 400px;
+}
+.chart {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    gap: 1rem;
+    flex-direction: column;
+}
+.line {
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 16px;
+}
+.bar {
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 16px;
+}
+.line-title {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.legend {
+    display: flex;
+    align-items: center;
+    gap: 0rem 1.5rem;
+}
+.boys div {
+    width: 13px;
+    height: 13px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+.boys {
+    display: flex;
+    align-items: center;
+    gap: 0px 4px;
+}
+.girls div {
+    width: 13px;
+    height: 13px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+.girls {
+    display: flex;
+    align-items: center;
+    gap: 0px 4px;
+}
+.for-student {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.star-student {
+    width: 49%;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.star-student h2 {
+    font-size: 26px;
+    margin-bottom: 2rem;
+}
+.star-student .table {
+    width: 100%;
+    height: 81%;
+    overflow-x: scroll;
+}
+.star-student .table .first-row {
+    width: 130%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem 1.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding: 0rem 8px;
+}
+.star-student .table .first-row{
+    font-weight: 600;
+}
+.star-student .table .first-row .Name {
+    width: 200px;
+    margin-left: 2rem;
+}
+.star-student .table .second-row {
+    width: 130%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem 1.5rem;
+    margin-bottom: 8px;
+    padding: 0rem 8px;
+}
+/* .star-student .table .second-row div {
+    font-size: 14px;
+}
+.star-student .table .second-row .mark {
+    margin-left: 1rem;
+}
+.star-student .table .second-row .percent {
+    margin-left: 3rem;
+}
+.star-student .table .second-row .year {
+    margin-left: 5rem;
+} */
+
+.student-activity {
+    width: 49%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.student-activity h2 {
+    font-size: 26px;
+    margin-bottom: 1rem;
+}
+.act-wrapper {
+    width: 100%;
+    height: auto;
+}
+.act {
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.act img {
+    width: 60px;
+}
+.act .act-title {
+    display: flex;
+    align-items: center;
+    gap: 0rem 8px;
+}
+.act .act-title h3 {
+    font-size: 14px;
+}
+.act .act-title p {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(88, 88, 88);
+}
+.act .day {
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    font-weight: 500;
+    font-size: 11px;
+    border-radius: 12px;
+    color: #818181;
+}
+.socials {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px 2rem;
+}
+.facebook {
+    width: 225px;
+    height: 83px;
+    background-color: #0b5bd3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 8px;
+    text-align: left;
+    border-radius: 8px;
+    color: #fff;
+}
+.facebook div h1 {
+    font-size: 12px;
+    font-weight: 300;
+}
+.facebook div p {
+    font-size: 28px;
+    font-weight: 700;
+}
+.img-wrapper2 {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-wrapper2 img {
+    width: 32px;
+
+}
+.twitter {
+    width: 225px;
+    height: 83px;
+    background-color: 	#1DA1F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 8px;
+    text-align: left;
+    border-radius: 8px;
+    color: #fff;
+}
+.twitter div h1 {
+    font-size: 12px;
+    font-weight: 300;
+}
+.twitter div p {
+    font-size: 28px;
+    font-weight: 700;
+}
+.instagram {
+    width: 225px;
+    height: 83px;
+    background: linear-gradient(to right,  rgb(79, 91,213) 30%,  rgb(250, 126,30));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 8px;
+    text-align: left;
+    border-radius: 8px;
+    color: #fff;
+}
+.instagram div h1 {
+    font-size: 12px;
+    font-weight: 300;
+}
+.instagram div p {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.linkedin {
+    width: 225px;
+    height: 83px;
+    background: #0A66C2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 8px;
+    text-align: left;
+    border-radius: 8px;
+    color: #fff;
+}
+.linkedin div h1 {
+    font-size: 12px;
+    font-weight: 300;
+}
+.linkedin div p {
+    font-size: 28px;
+    font-weight: 700;
+}
+.main-wrapper footer {
+    width: 100%;
+    height: 90px;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    font-weight: 500;
+}
+.skeleton {
+    width: 100%;
+    height: 800px;
+    padding: 2rem;
+    overflow: hidden;
+}
+.first-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.first-section div {
+    width: 210px;
+    height: 50px;
+    background-color: rgb(190, 190, 190);
+    overflow: hidden;
+}
+.header-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.header-section div {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(190, 190, 190);
+    overflow: hidden;
+}
+.third-section {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(190, 190, 190);
+    overflow: hidden;
+}
+.loading {
+    position: relative;
+}
+.loading::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgb(216, 216, 216), transparent);
+    animation: loading-ans 1s linear infinite;
+}
+@keyframes loading-ans {
+    0% {
+        transform: translateX(-100%)
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .ewan {
+        width: 100%;
+    }
+    .chart {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+        gap: 2rem 0rem;
+    }
+    .line {
+        width: 100%;
+    }
+    .bar {
+        width: 100%;
+    }
+    .flash-card {
+        padding: 1rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: flex-start;
+        height: auto;
+    }
+    .welcome {
+        padding: 1rem;
+    }
+    .card {
+        width: 48%;
+    }
+    .for-student {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .star-student {
+        width: 100%;
+    }
+    .student-activity {
+        width: 100%;
+    }
+    .socials {
+        flex-wrap: wrap;
+        gap: 1rem
+        ;
+    }
+    .facebook, .instagram,.linkedin,.twitter {
+        width: 260px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .socials {
+        gap: 8px;
+    }
+    .facebook, .twitter, .instagram, .linkedin {
+        width: 200px;
+    }
+    .facebook div h1, .twitter div h1, .instagram div h1, .linkedin div h1 {
+        font-size: 11px;
+    }
+    .facebook div p, .twitter div p, .instagram div p, .linkedin div p {
+        font-size: 20px;
+    }
+    .img-wrapper2 img {
+        width: 26px;
+    }
+    .for-student, .socials {
+        padding: 16px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .line {
+        padding: 16px;
+    }
+    .bar {
+        padding: 16px;
+        text-align: left ;
+    }
+    .line-title h1 {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .welcome {
+        padding: .5rem;
+    }
+    .card {
+        width: 100%;
+        padding: 1rem;
+    }
+    .flash-card {
+        padding: 8px;
+    }
+    .chart {
+        padding: 8px;
+    }
+    .for-student {
+        padding: 8px;
+    }
+    .socials {
+        padding: 8px;
+        margin-top: 1rem;
+    }
+    .facebook, .twitter, .instagram, .linkedin {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 408px) {
+    .welcome {
+        padding: .5rem;
+    }
+    .card {
+        width: 100%;
+        padding: 1rem;
+    }
+    .flash-card {
+        padding: 8px;
+    }
+    .chart {
+        padding: 8px;
+    }
+    .for-student {
+        padding: 8px;
+    }
+    .socials {
+        padding: 8px;
+        margin-top: 1rem;
+    }
+    .facebook, .twitter, .instagram, .linkedin {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .welcome {
+        padding: .5rem;
+    }
+    .card {
+        width: 100%;
+        padding: 1rem;
+    }
+    .flash-card {
+        padding: 8px;
+    }
+    .chart {
+        padding: 8px;
+    }
+    .for-student {
+        padding: 8px;
+    }
+    .socials {
+        padding: 8px;
+        margin-top: 1rem;
+    }
+    .facebook, .twitter, .instagram, .linkedin {
+        width: 100%;
+    }
+    .star-student .table .first-row {
+        width: 160%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0rem 1rem;
+        margin-bottom: 1rem;
+        background-color: rgb(235, 235, 235);
+        border-bottom: 1px solid rgb(185, 185, 185);
+        padding: 0rem 8px;
+    }
+    .star-student .table .second-row {
+        width: 160%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+        margin-bottom: 8px;
+        padding: 0rem 2px;
+    }
+    .first-row div {
+        font-size: 15px;
+    }
+    .second-row div {
+        font-size: 13px;
+    }
+    .star-student h2 {
+        font-size: 23px;
+    }
+    .student-activity h2 {
+        font-size: 23px;
+    }
+    .act img {
+        width: 50px;
+    }
+    .act .act-title div h3 {
+        font-size: 14px;
+    }
+    .act .act-title div p {
+        font-size: 10px;
+    }
+    .main-wrapper footer {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .welcome h2 {
+        font-size: 17px;
+    }
+    .welcome div {
+        font-size: 15px;
+    }
+    .line-title h1 {
+        font-size: 18px;
+    }
+    .bar .line-title h1 {
+        font-size: 16px;
+    } 
+    .legend {
+        display: flex;
+        align-items: center;
+        gap: 0rem .5rem;
+    }
+    .act .day {
+        padding: 8px;
+        background-color: rgb(238, 238, 238);
+        font-weight: 500;
+        font-size: 7px;
+        border-radius: 12px;
+        color: #818181;
+    }
+    .act .act-title div h3 {
+        font-size: 12px;
+    }
+    .act .act-title div p {
+        font-size: 10px;
+    }
+    .welcome {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
