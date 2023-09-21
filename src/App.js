@@ -2086,8 +2086,7 @@ function CustomLink2({ to, children, ...props }) {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Admin showNav={showNav} toShowNav={toShowNav} />} />
-        <Route path="/admin" element={<Admin showNav={showNav} toShowNav={toShowNav}  />} />
+        <Route index path='/admin-dashboard' element={<Admin showNav={showNav} toShowNav={toShowNav} />} />
         <Route path="/students" element={<StudentsDashboard showNav={showNav} toShowNav={toShowNav}  />} />
         <Route path="/teachers" element={<TeachersDashboard showNav={showNav} toShowNav={toShowNav}  />} />
         <Route path='/studentlist' element={<StudentList showNav={showNav} toShowNav={toShowNav} data={Data}  />} />
