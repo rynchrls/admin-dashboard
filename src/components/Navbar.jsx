@@ -197,7 +197,7 @@ function Navbar({ showNav}) {
           </div>
         </div>
         <div className="links">
-          <CustomLink to="/admin">Admin Dashboard</CustomLink>
+          <CustomLink to="/admin-dashboard">Admin Dashboard</CustomLink>
           <CustomLink to="/students">Students Dashboard</CustomLink>
           <CustomLink to="/teachers">Teachers Dashboard</CustomLink>
         </div>

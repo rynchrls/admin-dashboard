@@ -5,6 +5,10 @@ import Header from "../../components/header";
 import TeacherActivity from "../../components/TeacherActivity";
 import Calendar2 from "../../components/calendar";
 import Skeleton from "../../components/skeleton";
+import classImg from '../../images/class.jpg'
+import clock from '../../images/clock.jpg'
+import book from '../../images/book.jpg'
+import studentImg from '../../images/student.jpg'
 
 function StudentsDashboard({ showNav, toShowNav }) {
   const studentCounts = [
@@ -156,28 +160,28 @@ function StudentsDashboard({ showNav, toShowNav }) {
                   <p>All Courses</p>
                   <h5>04/60</h5>
                 </div>
-                <img src="../../images/class.jpg" />
+                <img src={classImg} />
               </div>
               <div className="card">
                 <div>
                   <p>All Projects</p>
                   <h5>40/60</h5>
                 </div>
-                <img src="../../images/student.jpg" />
+                <img src={studentImg} />
               </div>
               <div className="card">
                 <div>
                   <p>Test Attended</p>
                   <h5>30/50</h5>
                 </div>
-                <img src="../../images/book.jpg" />
+                <img src={book} />
               </div>
               <div className="card">
                 <div>
                   <p>Test Passed</p>
                   <h5>15/20</h5>
                 </div>
-                <img src="../../images/clock.jpg" />
+                <img src={clock} />
               </div>
             </div>
             <div className="flex-cards">

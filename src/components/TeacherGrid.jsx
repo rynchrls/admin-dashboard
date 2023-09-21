@@ -5,6 +5,7 @@ import Header from "./header";
 import DataTable from "react-data-table-component";
 import { Link } from "react-router-dom";
 import { useResolvedPath, useMatch } from "react-router-dom";
+import profile from '../images/mybaby.jpg'
 
 function TeacherGrid(props) {
   const { showNav, toShowNav } = props;
@@ -51,7 +52,7 @@ function TeacherGrid(props) {
       id: "PRE102",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Ryan Alcaraz</div>
         </div>
       ),
@@ -88,7 +89,7 @@ function TeacherGrid(props) {
       id: "PRE103",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Charles Ryan</div>
         </div>
       ),
@@ -125,7 +126,7 @@ function TeacherGrid(props) {
       id: "PRE104",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Max thamondz</div>
         </div>
       ),
@@ -162,7 +163,7 @@ function TeacherGrid(props) {
       id: "PRE105",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Sage Constania</div>
         </div>
       ),
@@ -199,7 +200,7 @@ function TeacherGrid(props) {
       id: "PRE106",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Ally Vior</div>
         </div>
       ),
@@ -236,7 +237,7 @@ function TeacherGrid(props) {
       id: "PRE107",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Matet</div>
         </div>
       ),
@@ -273,7 +274,7 @@ function TeacherGrid(props) {
       id: "PRE108",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Johann Micosa</div>
         </div>
       ),
@@ -310,7 +311,7 @@ function TeacherGrid(props) {
       id: "PRE109",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Shan Clet</div>
         </div>
       ),
@@ -347,7 +348,7 @@ function TeacherGrid(props) {
       id: "PRE110",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Andrew Basas</div>
         </div>
       ),
@@ -384,7 +385,7 @@ function TeacherGrid(props) {
       id: "PRE111",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Leeyan Alcaraz</div>
         </div>
       ),
@@ -421,7 +422,7 @@ function TeacherGrid(props) {
       id: "PRE112",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Justine Zach</div>
         </div>
       ),
@@ -458,7 +459,7 @@ function TeacherGrid(props) {
       id: "PRE113",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Joshua Antillon</div>
         </div>
       ),
@@ -495,7 +496,7 @@ function TeacherGrid(props) {
       id: "PRE114",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Lester Rabe</div>
         </div>
       ),
@@ -532,7 +533,7 @@ function TeacherGrid(props) {
       id: "PRE115",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Galye Naldo</div>
         </div>
       ),
@@ -569,7 +570,7 @@ function TeacherGrid(props) {
       id: "PRE116",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Raymond Momon</div>
         </div>
       ),
@@ -607,7 +608,7 @@ function TeacherGrid(props) {
     {
       id: "PRE102",
       name: 'Ryan Alcaraz',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",
@@ -640,7 +641,7 @@ function TeacherGrid(props) {
     {
       id: "PRE103",
       name: 'Charles Ryan',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",
@@ -673,7 +674,7 @@ function TeacherGrid(props) {
     {
       id: "PRE104",
       name: 'Max Thamondz',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",
@@ -706,7 +707,7 @@ function TeacherGrid(props) {
     {
       id: "PRE105",
       name: 'Sage Constania',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",
@@ -739,7 +740,7 @@ function TeacherGrid(props) {
     {
       id: "PRE106",
       name: 'Ally Vior',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",
@@ -772,7 +773,7 @@ function TeacherGrid(props) {
     {
       id: "PRE107",
       name: 'Matet',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",
@@ -805,7 +806,7 @@ function TeacherGrid(props) {
     {
       id: "PRE115",
       name: 'Gayle Naldo',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",
@@ -838,7 +839,7 @@ function TeacherGrid(props) {
     {
       id: "PRE116",
       name: 'Raymond Momon',
-      img: "../../images/mybaby.jpg",
+      img: profile,
       class: "ICT1MA",
       parent: "Rea Stokes",
       number: "09702203203",

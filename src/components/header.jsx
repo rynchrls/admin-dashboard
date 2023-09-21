@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/header.css'
+import profile from '../images/mybaby.jpg'
 
 
 function Header({ toShowNav }) {
@@ -44,7 +45,7 @@ function Header({ toShowNav }) {
             </div>
             <div className='profile' onClick={handleClick}>
                 <div className='img-wrapper'>
-                    <img src='../../images/mybaby.jpg' />
+                    <img src={profile} />
                 </div>
                 <div className='name-wrapper21'>
                     <h6>Ryan Charles</h6>
@@ -54,7 +55,7 @@ function Header({ toShowNav }) {
             </div>
             <div className={`profile-card ${active.isActive === true ? 'active2' : ''}`}>
                     <div className='card-wrapper'>
-                        <img src='../../images/mybaby.jpg' />
+                        <img src={profile} />
                         <div>
                             <h6>Ryan Charles</h6>
                             <span>Administrator</span>
@@ -71,28 +72,28 @@ function Header({ toShowNav }) {
                 </div>
                 <div className='middle'>
                     <div className='notif'>
-                        <img src='../../images/mybaby.jpg' />
+                        <img src={profile} />
                         <div className='notif-content'>
                             <p>Loraine Montecalvo <span>has approved</span> <strong>your estimate</strong></p>
                             <span className='minutes'>4 mins ago</span>
                         </div>
                     </div>
                     <div className='notif'>
-                        <img src='../../images/mybaby.jpg' />
+                        <img src={profile} />
                         <div className='notif-content'>
                             <p>Loraine Montecalvo <span>has approved</span> <strong>your estimate</strong></p>
                             <span className='minutes'>4 mins ago</span>
                         </div>
                     </div>
                     <div className='notif'>
-                        <img src='../../images/mybaby.jpg' />
+                        <img src={profile} />
                         <div className='notif-content'>
                             <p>Loraine Montecalvo <span>has approved</span> <strong>your estimate</strong></p>
                             <span className='minutes'>4 mins ago</span>
                         </div>
                     </div>
                     <div className='notif'>
-                        <img src='../../images/mybaby.jpg' />
+                        <img src={profile} />
                         <div className='notif-content'>
                             <p>Loraine Montecalvo <span>has approved</span> <strong>your estimate</strong></p>
                             <span className='minutes'>4 mins ago</span>

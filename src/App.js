@@ -19,12 +19,6 @@ import DepartmentList from './pages/departments/DepartmentList';
 import SubjectAdd from './pages/subjects/SubjectAdd';
 import SubjectEdit from './pages/subjects/SubjectEdit';
 import SubjectList from './pages/subjects/SubjectList';
-import AddInvoices from './pages/invoices/AddInvoices';
-import EditInvoices from './pages/invoices/EditInvoices'
-import InvoicesDetails from './pages/invoices/InvoicesDetails'
-import InvoicesGrid from './pages/invoices/InvoicesGrid';
-import InvoicesList from './pages/invoices/InvoicesList';
-import InvoicesSettings from './pages/invoices/InvoicesSettings';
 import FeesCollection from './pages/accounts/FeesCollection';
 import Expenses from './pages/accounts/Expenses'
 import Salary from './pages/accounts/Salary';
@@ -53,6 +47,7 @@ import Studentgrid from './components/Studentgrid';
 import TeacherGrid from './components/TeacherGrid';
 import { Link, json } from "react-router-dom";
 import { useResolvedPath, useMatch } from "react-router-dom";
+import profile from './images/mybaby.jpg'
 
 
 
@@ -83,7 +78,7 @@ function Router() {
       id: "PRE102",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Ryan Alcaraz</div>
         </div>
       ),
@@ -124,7 +119,7 @@ function Router() {
       id: "PRE103",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Charles Ryan</div>
         </div>
       ),
@@ -165,7 +160,7 @@ function Router() {
       id: "PRE104",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Max thamondz</div>
         </div>
       ),
@@ -206,7 +201,7 @@ function Router() {
       id: "PRE105",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Sage Constania</div>
         </div>
       ),
@@ -247,7 +242,7 @@ function Router() {
       id: "PRE106",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Ally Vior</div>
         </div>
       ),
@@ -288,7 +283,7 @@ function Router() {
       id: "PRE107",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Matet</div>
         </div>
       ),
@@ -329,7 +324,7 @@ function Router() {
       id: "PRE108",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Johann Micosa</div>
         </div>
       ),
@@ -370,7 +365,7 @@ function Router() {
       id: "PRE109",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Shan Clet</div>
         </div>
       ),
@@ -411,7 +406,7 @@ function Router() {
       id: "PRE110",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Andrew Basas</div>
         </div>
       ),
@@ -452,7 +447,7 @@ function Router() {
       id: "PRE111",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Leeyan Alcaraz</div>
         </div>
       ),
@@ -493,7 +488,7 @@ function Router() {
       id: "PRE112",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Justine Zach</div>
         </div>
       ),
@@ -534,7 +529,7 @@ function Router() {
       id: "PRE113",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Joshua Antillon</div>
         </div>
       ),
@@ -575,7 +570,7 @@ function Router() {
       id: "PRE114",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Lester Rabe</div>
         </div>
       ),
@@ -616,7 +611,7 @@ function Router() {
       id: "PRE115",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Galye Naldo</div>
         </div>
       ),
@@ -657,7 +652,7 @@ function Router() {
       id: "PRE116",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Raymond Momon</div>
         </div>
       ),
@@ -701,7 +696,7 @@ function Router() {
       id: "PRE102",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Ryan Alcaraz</div>
         </div>
       ),
@@ -742,7 +737,7 @@ function Router() {
       id: "PRE103",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Charles Ryan</div>
         </div>
       ),
@@ -783,7 +778,7 @@ function Router() {
       id: "PRE104",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Max thamondz</div>
         </div>
       ),
@@ -824,7 +819,7 @@ function Router() {
       id: "PRE105",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Sage Constania</div>
         </div>
       ),
@@ -865,7 +860,7 @@ function Router() {
       id: "PRE106",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Ally Vior</div>
         </div>
       ),
@@ -906,7 +901,7 @@ function Router() {
       id: "PRE107",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Matet</div>
         </div>
       ),
@@ -947,7 +942,7 @@ function Router() {
       id: "PRE108",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Johann Micosa</div>
         </div>
       ),
@@ -988,7 +983,7 @@ function Router() {
       id: "PRE109",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Shan Clet</div>
         </div>
       ),
@@ -1029,7 +1024,7 @@ function Router() {
       id: "PRE110",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Andrew Basas</div>
         </div>
       ),
@@ -1070,7 +1065,7 @@ function Router() {
       id: "PRE111",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Leeyan Alcaraz</div>
         </div>
       ),
@@ -1111,7 +1106,7 @@ function Router() {
       id: "PRE112",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Justine Zach</div>
         </div>
       ),
@@ -1152,7 +1147,7 @@ function Router() {
       id: "PRE113",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Joshua Antillon</div>
         </div>
       ),
@@ -1193,7 +1188,7 @@ function Router() {
       id: "PRE114",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Lester Rabe</div>
         </div>
       ),
@@ -1234,7 +1229,7 @@ function Router() {
       id: "PRE115",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Galye Naldo</div>
         </div>
       ),
@@ -1275,7 +1270,7 @@ function Router() {
       id: "PRE116",
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Raymond Momon</div>
         </div>
       ),
@@ -1715,7 +1710,7 @@ function Router() {
       id: 'PRE2209',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Aaliyah</div>
         </div>
       ),
@@ -1729,7 +1724,7 @@ function Router() {
       id: 'PRE2213',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Malynne</div>
         </div>
       ),
@@ -1743,7 +1738,7 @@ function Router() {
       id: 'PRE2143',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>levell Scott</div>
         </div>
       ),
@@ -1757,7 +1752,7 @@ function Router() {
       id: 'PRE2431',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Minnie</div>
         </div>
       ),
@@ -1771,7 +1766,7 @@ function Router() {
       id: 'PRE1534',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Lois A</div>
         </div>
       ),
@@ -1785,7 +1780,7 @@ function Router() {
       id: 'PRE2153',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Calvin</div>
         </div>
       ),
@@ -1799,7 +1794,7 @@ function Router() {
       id: 'PRE2143',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>levell Scott</div>
         </div>
       ),
@@ -1813,7 +1808,7 @@ function Router() {
       id: 'PRE2213',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Malynne</div>
         </div>
       ),
@@ -1827,7 +1822,7 @@ function Router() {
       id: 'PRE1534',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Lois A</div>
         </div>
       ),
@@ -1841,7 +1836,7 @@ function Router() {
       id: 'PRE2431',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Minnie</div>
         </div>
       ),
@@ -1938,7 +1933,7 @@ function Router() {
       id: 'PRE2209',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Aaliyah</div>
         </div>
       ),
@@ -1951,7 +1946,7 @@ function Router() {
       id: 'PRE2213',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Malynne</div>
         </div>
       ),
@@ -1964,7 +1959,7 @@ function Router() {
       id: 'PRE2143',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>levell Scott</div>
         </div>
       ),
@@ -1977,7 +1972,7 @@ function Router() {
       id: 'PRE2431',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Minnie</div>
         </div>
       ),
@@ -1990,7 +1985,7 @@ function Router() {
       id: 'PRE1534',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Lois A</div>
         </div>
       ),
@@ -2003,7 +1998,7 @@ function Router() {
       id: 'PRE2153',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Calvin</div>
         </div>
       ),
@@ -2016,7 +2011,7 @@ function Router() {
       id: 'PRE2143',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>levell Scott</div>
         </div>
       ),
@@ -2029,7 +2024,7 @@ function Router() {
       id: 'PRE2213',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Malynne</div>
         </div>
       ),
@@ -2042,7 +2037,7 @@ function Router() {
       id: 'PRE1534',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Lois A</div>
         </div>
       ),
@@ -2055,7 +2050,7 @@ function Router() {
       id: 'PRE2431',
       name: (
         <div className="name-wrapper">
-          <img src="../../images/mybaby.jpg" className="img" />
+          <img src={profile} className="img" />
           <div>Minnie</div>
         </div>
       ),
@@ -2084,9 +2079,9 @@ function CustomLink2({ to, children, ...props }) {
 
 
   return (
-    <BrowserRouter>
       <Routes>
-        <Route index path='/admin-dashboard' element={<Admin showNav={showNav} toShowNav={toShowNav} />} />
+        <Route index element={<Admin showNav={showNav} toShowNav={toShowNav} />} />
+        <Route path="/admin-dashboard" element={<Admin showNav={showNav} toShowNav={toShowNav}  />} />
         <Route path="/students" element={<StudentsDashboard showNav={showNav} toShowNav={toShowNav}  />} />
         <Route path="/teachers" element={<TeachersDashboard showNav={showNav} toShowNav={toShowNav}  />} />
         <Route path='/studentlist' element={<StudentList showNav={showNav} toShowNav={toShowNav} data={Data}  />} />
@@ -2130,6 +2125,5 @@ function CustomLink2({ to, children, ...props }) {
         <Route path='/studentgrid' element={<Studentgrid showNav={showNav} toShowNav={toShowNav}  />} />
         <Route path='/teachergrid' element={<TeacherGrid showNav={showNav} toShowNav={toShowNav}  />} />
       </Routes>
-    </BrowserRouter>
   )
 }

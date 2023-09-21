@@ -4,6 +4,7 @@ import "../../css/authentication/login.css";
 import Header from "../../components/header";
 import { Link } from "react-router-dom";
 import { useResolvedPath, useMatch } from "react-router-dom";
+import login from '../../images/login.jpg'
 
 function Login() {
   const [show, setShow] = React.useState(false);
@@ -44,7 +45,7 @@ function Login() {
     <main className="login-page">
       <div className="login-wrapper">
         <div className="photo">
-          <img src="../../images/login.jpg" />
+          <img src={login} />
         </div>
         {form.login === true ? (
           <div className="login-form">

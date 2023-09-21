@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
 import "../../css/students/studentView.css";
 import Header from "../../components/header";
+import profile from '../../images/mybaby.jpg'
+import profileBg from '../../images/profile-background.jpg'
 
 export class StudentView extends Component {
   render() {
@@ -23,12 +25,12 @@ export class StudentView extends Component {
                 <div className="profile-header">Profile</div>
                 <div className="profile-section">
                   <div className="background">
-                    <img src="../../images/profile-background.jpg" />
+                    <img src={profileBg} />
                   </div>
                   <div className="profile-details">
                     <div className="image-section">
                       <div className="profile-portrait">
-                        <img src="../../images/mybaby.jpg" />
+                        <img src={profile} />
                       </div>
                       <div>
                         <h3>Loraine Montecalvo</h3>

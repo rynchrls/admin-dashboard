@@ -78,7 +78,7 @@
 }
 .input-field span {
     position: absolute;
-    bottom: 40px;
+    bottom: 70px;
     left: 10px;
     padding: 0rem 4px;
     pointer-events: none;
@@ -224,7 +224,7 @@ form {
     padding: 4px;
 }
 .input-field span {
-    bottom: 30px;
+    bottom: 35px;
 }
 .for-checkbox div span {
     color: var(--primary-color);
@@ -303,5 +303,61 @@ form {
 @media screen and (max-width: 1000px) {
     .ewan {
         width: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .login-wrapper {
+        height: 700px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .login-wrapper {
+        flex-direction: column;
+        width: 70%;
+        height:900px;
+    }
+    .login-wrapper .photo {
+        width: 100%;
+        height: 50%;
+    }
+    .login-form h1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .login-form {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    .for-checkbox div {
+        font-size: 11px;
+    }
+    .remember div a {
+        font-size: 11px;
+    }
+    .login-form button a {
+        font-size: 15px;
+    }
+    .liners::after {
+        content: 'OR';
+        position: absolute;
+        top: -12px;
+        left: 42%;
+        background-color: #fff;
+        padding: 4px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .for-checkbox div {
+        font-size: 9px;
+    }
+    .remember div a {
+        font-size: 9px;
+    }
+    .login-form {
+        padding: .7rem;
     }
 }

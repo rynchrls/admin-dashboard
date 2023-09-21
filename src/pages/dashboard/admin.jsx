@@ -5,6 +5,18 @@ import Header from "../../components/header";
 import Barchart from "../../components/barchart";
 import Linechart from "../../components/linechart";
 import Skeleton from "../../components/skeleton";
+import studentImg from '../../images/student.jpg'
+import awardImg from '../../images/award.jpg'
+import buildingImg from '../../images/building.jpg'
+import revenueImg from '../../images/revenue.jpg'
+import icon1 from '../../icons/icon1.jpg'
+import icon2 from '../../icons/icon2.jpg'
+import icon3 from '../../icons/icon3.jpg'
+import icon4 from '../../icons/icon4.jpg'
+import facebook from '../../icons/facebook.png'
+import twitter from '../../icons/twitter.png'
+import instagram from'../../icons/instagram.jpg'
+import linkedin from '../../icons/linkedin.png'
 
 function Admin({showNav, toShowNav}) {
   const studentCounts = [
@@ -170,28 +182,28 @@ function Admin({showNav, toShowNav}) {
                 <p>Students</p>
                 <h5>50055</h5>
               </div>
-              <img src="../../images/student.jpg" />
+              <img src={studentImg} alt="student" />
             </div>
             <div className="card">
               <div>
                 <p>Award</p>
                 <h5>50+</h5>
               </div>
-              <img src="../../images/award.jpg" />
+              <img src={awardImg} />
             </div>
             <div className="card">
               <div>
                 <p>Department</p>
                 <h5>30+</h5>
               </div>
-              <img src="../../images/building.jpg" />
+              <img src={buildingImg} />
             </div>
             <div className="card">
               <div>
                 <p>Revenue</p>
                 <h5>$505</h5>
               </div>
-              <img src="../../images/revenue.jpg" />
+              <img src={revenueImg} />
             </div>
           </div>
           <div className="chart">
@@ -288,7 +300,7 @@ function Admin({showNav, toShowNav}) {
               <div className="act-wrapper">
                 <div className="act">
                   <div className="act-title">
-                    <img src="../../icons/icon1.jpg" />
+                    <img src={icon1} />
                     <div>
                       <h3>1st place in "Chess”</h3>
                       <p>John Doe won 1st place in "Chess"</p>
@@ -298,7 +310,7 @@ function Admin({showNav, toShowNav}) {
                 </div>
                 <div className="act">
                   <div className="act-title">
-                    <img src="../../icons/icon2.jpg" />
+                    <img src={icon2} />
                     <div>
                       <h3>Participated in "Carrom"</h3>
                       <p>Justin Lee participated in "Carrom"</p>
@@ -308,7 +320,7 @@ function Admin({showNav, toShowNav}) {
                 </div>
                 <div className="act">
                   <div className="act-title">
-                    <img src="../../icons/icon3.jpg" />
+                    <img src={icon3} />
                     <div>
                       <h3>Internation conference in "St.John School"</h3>
                       <p>Justin Leeattended internation conference in "St.John School"</p>
@@ -318,7 +330,7 @@ function Admin({showNav, toShowNav}) {
                 </div>
                 <div className="act">
                   <div className="act-title">
-                    <img src="../../icons/icon4.jpg" />
+                    <img src={icon4} />
                     <div>
                       <h3>Won 1st place in "Chess"</h3>
                       <p>John Doe won 1st place in "Chess"</p>
@@ -336,7 +348,7 @@ function Admin({showNav, toShowNav}) {
                 <p>50,095</p>
               </div>
               <div className="img-wrapper2">
-                <img src="../../icons/facebook.png" />
+                <img src={facebook} />
               </div>
             </div>
             <div className="twitter">
@@ -345,7 +357,7 @@ function Admin({showNav, toShowNav}) {
                 <p>48,596</p>
               </div>
               <div className="img-wrapper2">
-                <img src="../../icons/twitter.png" />
+                <img src={twitter} />
               </div>
             </div>
             <div className="instagram">
@@ -354,7 +366,7 @@ function Admin({showNav, toShowNav}) {
                 <p>52,085</p>
               </div>
               <div className="img-wrapper2">
-                <img src="../../icons/instagram.jpg" />
+                <img src={instagram} />
               </div>
             </div>
             <div className="linkedin">
@@ -363,7 +375,7 @@ function Admin({showNav, toShowNav}) {
                 <p>69,050</p>
               </div>
               <div className="img-wrapper2">
-                <img src="../../icons/linkedin.png" />
+                <img src={linkedin} />
               </div>
             </div>
           </div>

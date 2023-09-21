@@ -122,7 +122,7 @@
 .profile-card {
     position: absolute;
     top: 40px;
-    left: 140px;
+    left: 40px;
     width: 200px;
     height: 200px;
     background-color: rgb(255, 255, 255);
@@ -305,7 +305,7 @@ footer {
         display: none;
     }
     .profile-card {
-        left: 90px;
+        left: 50px;
     }
     .notify {
         right: 20px;
