@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/admin-dashboard/static/css/main.c6287078.css",
-    "main.js": "/admin-dashboard/static/js/main.175f3f8a.js",
+    "main.css": "/admin-dashboard/static/css/main.661c5713.css",
+    "main.js": "/admin-dashboard/static/js/main.3b05280c.js",
+    "static/media/award.jpg": "/admin-dashboard/static/media/award.495afba1cc9ef29885f7.jpg",
+    "static/media/icon2.jpg": "/admin-dashboard/static/media/icon2.7030cbcc857a018a985a.jpg",
+    "static/media/student.jpg": "/admin-dashboard/static/media/student.8ef38109f6093d03b751.jpg",
+    "static/media/login.jpg": "/admin-dashboard/static/media/login.0f1c4e9c7024bad4e445.jpg",
+    "static/media/class.jpg": "/admin-dashboard/static/media/class.4d4b73f2615bfab01d26.jpg",
+    "static/media/icon1.jpg": "/admin-dashboard/static/media/icon1.b0f2c86a96f8dc6c880d.jpg",
+    "static/media/icon3.jpg": "/admin-dashboard/static/media/icon3.8a68fe2320a02f8dd042.jpg",
+    "static/media/profile-background.jpg": "/admin-dashboard/static/media/profile-background.bc33b94b45633621273f.jpg",
+    "static/media/mybaby.jpg": "/admin-dashboard/static/media/mybaby.502a90296ec4bfd56fa5.jpg",
+    "static/media/clock.jpg": "/admin-dashboard/static/media/clock.87ac78cf4372410e4ad4.jpg",
+    "static/media/icon4.jpg": "/admin-dashboard/static/media/icon4.aab37f7b81b515b8431f.jpg",
+    "static/media/book.jpg": "/admin-dashboard/static/media/book.c85d79bc5486b091a9ce.jpg",
+    "static/media/revenue.jpg": "/admin-dashboard/static/media/revenue.5049b328e7d34d848180.jpg",
+    "static/media/building.jpg": "/admin-dashboard/static/media/building.81f64428a1f96dca8244.jpg",
+    "static/media/instagram.jpg": "/admin-dashboard/static/media/instagram.f8191acd0e54751e04e5.jpg",
+    "static/media/twitter.png": "/admin-dashboard/static/media/twitter.f87fab6e76b591c59da9.png",
     "index.html": "/admin-dashboard/index.html",
-    "main.c6287078.css.map": "/admin-dashboard/static/css/main.c6287078.css.map",
-    "main.175f3f8a.js.map": "/admin-dashboard/static/js/main.175f3f8a.js.map"
+    "main.661c5713.css.map": "/admin-dashboard/static/css/main.661c5713.css.map",
+    "main.3b05280c.js.map": "/admin-dashboard/static/js/main.3b05280c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6287078.css",
-    "static/js/main.175f3f8a.js"
+    "static/css/main.661c5713.css",
+    "static/js/main.3b05280c.js"
   ]
 }
